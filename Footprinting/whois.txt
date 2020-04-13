@@ -1,0 +1,6 @@
+Whois gives a bunch of information, about who registered a website, telephone numbers, emails and many more stuff about the servers.
+Can send malware to emails, to get backdoor installed.
+
+Use it like:
+whois "site" > whoisResult.txt
+

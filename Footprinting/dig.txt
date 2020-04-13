@@ -1,0 +1,16 @@
+Dig can do a attack called Zone transfer, and return IP addresses and hosts or DNS.
+
+Use it like:
+
+dig "site"
+
+or
+
+dig axlr (zone transfer) facebook.com @A.NS.FACEBOOK.COM
+
+Dnsenum results IP Addresses and name servers
+
+Use it:
+
+dnsenum google.com
+

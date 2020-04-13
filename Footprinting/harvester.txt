@@ -1,0 +1,5 @@
+Harvester is an email harvester tool.
+
+Combine commands to use it like:
+
+theHarvester -d "site" -l "no. of results" -b "search engine"

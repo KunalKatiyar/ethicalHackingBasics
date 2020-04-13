@@ -1,0 +1,5 @@
+Nikto tests a web server in quickest time, and is present in log file too.
+
+Basic command options stack, example:
+
+nikto -h "site" -p "port" -o nikitoResult -F txt

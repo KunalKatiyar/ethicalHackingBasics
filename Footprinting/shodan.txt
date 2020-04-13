@@ -1,0 +1,4 @@
+Shodan is a search engine to search for vulnerable devices, usually routers with default usernames and passwords.
+
+Check it on:
+www.shodan.io
