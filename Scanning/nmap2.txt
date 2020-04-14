@@ -1,0 +1,9 @@
+nmap options:
+nmap -p "port range like 1-10" site : to check for range of ports
+
+-vv : To print as you find an open port, dont have to wait till end
+
+also a range of ip's can be done like
+nmap 192.168.1.1-255
+
+

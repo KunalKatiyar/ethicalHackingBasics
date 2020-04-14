@@ -1,0 +1,10 @@
+Options on nmap:
+
+-Pn: assumes host is online and then scans
+-st: Three way handshake of tcp scan
+-ss: Lesser version of st
+-sU: UDP scan
+-sA: Only sends ACK back, so bypasses some blocled websites
+-g/--source port "port": For entry though specific port
+--data-length "length": Bypass map standard packet size
+--spoof-mac "Mac address": Change your mac address on the go

@@ -1,0 +1,20 @@
+cd to /usr/share/nmap/scripts to look for the scripts
+
+Look for script names using ls | grep ssh (example)
+
+After getting name, run script from anywhere using:
+
+nmap --script=="script name" ip
+
+scripts can be edited too, like ssh-brute force
+
+after downloading additional repos for vulnerability scanning,
+run it using, from the directory containing these repos:
+
+nmap --script "repo name, another repo name (if wanted two or more at the same time)" "options" ip
+
+number shows amount of vulnerability in case of vulners, and click on link for more info
+
+to search for exploit, just google the name of vulnerability + "exploit"
+
+amap: alternative version of amap

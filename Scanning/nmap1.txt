@@ -1,0 +1,12 @@
+Nmap is used for vulnerability scanning and discovery and open ports and version of OS. Works by sending packets and receiving them.
+
+nslookup: To look into name of server if IP is known or vie versa
+Example: nslookup google.com
+
+curl ipinfo.io/IP: To get varius information from an address
+Example: curl ipinfo.io/IP
+
+For IP's: Google Search: Major IP and to check results search IP locator
+
+Use:
+nmap "extra commands like -v -A" "site"

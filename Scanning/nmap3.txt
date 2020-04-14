@@ -1,0 +1,7 @@
+options to try:
+
+-O : OS detection
+-sV: Version detection
+-A: multiple stuff detection
+
+TraceRoute: Port used to connect to the client
