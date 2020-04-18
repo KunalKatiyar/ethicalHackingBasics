@@ -1,0 +1,5 @@
+Usage of whatweb:
+whatweb -v ip
+Usage of dirb:
+dirb http://ip "word-list"
+word-list can be found in /usr/share/wordlists/

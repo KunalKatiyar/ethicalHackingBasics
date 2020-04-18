@@ -1,0 +1,6 @@
+admin webgoat
+administrator
+user
+test
+admin
+testuser

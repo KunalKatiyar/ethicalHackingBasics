@@ -1,0 +1,5 @@
+run burpsuite by typing burpsuite in cmd
+
+Intercept on-off
+Check websites from target
+Check request and responses

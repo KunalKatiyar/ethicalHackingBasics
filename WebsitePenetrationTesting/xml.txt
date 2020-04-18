@@ -1,0 +1,7 @@
+XML uses contain, hence action and act gives same output.
+
+To check database:
+edit action with ')]*/|//*[contains('1','1
+It is usernames and passwords
+
+xcat: pip3 install xcat

